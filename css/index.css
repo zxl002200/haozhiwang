@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@media screen and (min-width: 756px) {
+    .nav_right {
+        margin-left: 100px;
+    }
+}
+.logo {
+    width: 70%;
+}
+
+.banner {
+    width: 100%;
+}
+.subnav{
+    width: 100%;
+}
+.subnav>li{
+    width: 12%;
+}
+.subnav>li>a{
+    color: #0f0f0f;
+    font-size: 12px;
+}
+.subnav>li>a:hover{
+    color: green;
+}
+.big{
+    background: gainsboro;
+}
+.wrap{
+    /*background: gainsboro;*/
+    padding-top: 20px;
+    margin-top: 15px;
+}
+.wrap>div>.item{
+    background: white;
+}
+.wrap>div>.item2{
+    margin-top: 15px;
+    background: white;
+}
+.wrap>div>.item>.con1{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.wrap>div>.item>.con2{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.side>li{
+    width: 25%;
+}
+.side>li>a{
+    text-align: center;
+    color: #0f0f0f;
+}
+.text>a>p{
+    text-align: center;
+    color: #0f0f0f;
+}
+.text>a>.small_text{
+    text-align: left;
+    color: #808080;
+}
+@media screen and (max-width: 950px){
+    .text>a>.small_text{
+        text-align: center;
+        color: #808080;
+    }
+}
+.text_con{
+    margin-top: 20px;
+}
+.gz{
+    color: green;
+}
+.note{
+    font-size: 16px;
+}
+.footer{
+    padding-top: 20px;
+    background: #525252;
+}
+.footer_nav>li>a{
+    color: antiquewhite;
+}
+.footer_nav>li>a:hover{
+    color: #000000;
+}
